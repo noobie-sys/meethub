@@ -1,4 +1,6 @@
+import { ModeToggle } from '@/components/ui/toggle-button'
 import React from 'react'
+import Navbar from './_components/Navbar'
 
 type Props = {
     children : React.ReactNode
@@ -7,7 +9,7 @@ type Props = {
 const LandingPageLayout = ({children}: Props) => {
   return (
     <div>
-        {/* <Navbar /> */}
+        <Navbar/>
         {children}
     </div>
   )
